@@ -45,18 +45,35 @@ export default function Home() {
           <div className="absolute inset-0 bg-zinc-950/60" />
           <div className="absolute inset-0 flex items-center justify-center px-4 text-center">
             <div className="max-w-3xl">
-              <h1 className="font-serif text-4xl font-bold leading-tight text-white md:text-6xl">
+              <h1 className="font-serif text-3xl font-bold leading-tight text-white sm:text-4xl md:text-6xl">
                 The Craftsmanship of Yesterday, With the Technology of Today.
               </h1>
-              <p className="mx-auto mt-6 max-w-2xl text-lg text-zinc-200">
-                Master Garage PH is a multi-branch auto service and engineering shop that caters to
-                each customer&apos;s unique needs — serving Metro Manila and surrounding communities
-                since 2015.
+              <p className="mx-auto mt-5 max-w-2xl text-base text-zinc-200 sm:text-lg">
+                Multi-branch auto service and engineering — serving Metro Manila and surrounding
+                communities since 2015.
               </p>
-              <p className="mt-6 font-serif text-xl italic text-amber-400">
+
+              {/* CTA buttons */}
+              <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row sm:gap-4">
+                <Link
+                  href="/booking"
+                  className="w-full rounded-md bg-amber-500 px-8 py-4 text-center font-extrabold uppercase tracking-wide text-zinc-900 transition hover:bg-amber-400 sm:w-auto"
+                >
+                  Book an Appointment
+                </Link>
+                <Link
+                  href="/services"
+                  className="w-full rounded-md border-2 border-white px-8 py-4 text-center font-extrabold uppercase tracking-wide text-white transition hover:bg-white hover:text-zinc-900 sm:w-auto"
+                >
+                  View Services
+                </Link>
+              </div>
+
+              <p className="mt-6 font-serif text-lg italic text-amber-400 sm:text-xl">
                 Locally Owned and Operated
               </p>
             </div>
+
           </div>
         </div>
       </section>
