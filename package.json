@@ -32,5 +32,6 @@
   "overrides": {
     "micromatch": "^4.0.8",
     "fast-glob": "^3.3.3"
-  }
+  },
+  "type": "module"
 }
