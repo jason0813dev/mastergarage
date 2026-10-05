@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
-import { Orbitron, Montserrat } from "next/font/google";
+import { Palanquin_Dark, Saira } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ThemeProvider from "@/components/ThemeProvider";
+import BackToTop from '@/components/BackToTop';
 
-const serif = Orbitron({ subsets: ["latin"], variable: "--font-serif" });
-const sans = Montserrat({ subsets: ["latin"], variable: "--font-sans" });
+const serif = Palanquin_Dark({ subsets: ["latin"], weight: "700", variable: "--font-serif" });
+const sans = Saira({ subsets: ["latin"], weight: "500", variable: "--font-sans" });
 
 export const metadata: Metadata = {
   title: "Master Garage PH — Precision Auto Engineering",
@@ -23,6 +24,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <main className="min-h-screen">{children}</main>
           <Footer />
         </ThemeProvider>
+         <BackToTop />
       </body>
     </html>
   );
