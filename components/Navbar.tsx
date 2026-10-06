@@ -25,7 +25,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 border-b border-zinc-200 bg-white/90 backdrop-blur dark:border-zinc-800 dark:bg-zinc-950/90">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
         <Link href="/" className="flex items-center">
-          <Image src="/mg_logo.png" alt="Master Garage PH" width={180} height={120} priority className="h-15 w-auto sm:h-10" />
+          <Image src="/mg_logo.png" alt="Master Garage PH" width={450} height={220} priority className="h-12 w-auto sm:h-20" />
         </Link>
 
         {/* Desktop links */}
