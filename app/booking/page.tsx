@@ -106,7 +106,9 @@ export default function BookingPage() {
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-12">
-      <h1 className="text-3xl font-bold">Book a Service Bay</h1>
+      <h1 className="text-3xl py-4 font-extrabold uppercase tracking-wide sm:text-4xl">
+            Book a <span className="text-amber-500 dark:text-amber-400">Service Bay</span>
+          </h1>
       <p className="mt-2 text-zinc-600 dark:text-zinc-400">
         Availability updates live — slots shown are verified against all branch schedules.
       </p>

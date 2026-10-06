@@ -40,7 +40,9 @@ export default function InvoicePortal() {
 
   return (
     <div className="mx-auto max-w-2xl px-4 py-12">
-      <h1 className="text-3xl font-bold">Invoice Payment Portal</h1>
+      <h1 className="text-3xl py-4 font-extrabold uppercase tracking-wide sm:text-4xl">
+        Payment <span className="text-amber-500 dark:text-amber-400">Portal</span>
+      </h1>
       <p className="mt-2 text-zinc-600 dark:text-zinc-400">
         Enter your invoice number (e.g.{" "}
         <code className="text-amber-600 dark:text-amber-400">INV-2026-0042</code>) from your service receipt.

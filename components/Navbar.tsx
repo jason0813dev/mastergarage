@@ -7,11 +7,11 @@ import { Menu, X } from "lucide-react";
 import ThemeToggle from "@/components/ThemeToggle";
 
 const LINKS = [
-  { href: "/", label: "Home" },
-  { href: "/services", label: "Services" },
-  { href: "/booking", label: "Book a Bay" },
-  { href: "/invoices", label: "Pay Invoice" },
-  { href: "/inquiry", label: "Tech Inquiry" },
+  { href: "/", label: "HOME" },
+  { href: "/services", label: "SERVICES" },
+  { href: "/booking", label: "BOOK A BAY" },
+  { href: "/invoices", label: "PAY INVOICE" },
+  { href: "/inquiry", label: "CONTACT" },
 ];
 
 export default function Navbar() {
